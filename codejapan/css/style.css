@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+li {
+  /*リストスタイルを削除*/
+  list-style: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+
+  width: 800px;
+  margin: 0 auto;
+}
+header ul {
+  display: flex;
+}
+#mainvisual {
+  width: 100%;
+}
+#mainvisual img {
+  width: 100%;
+}
+#about {
+  padding: 80px 0;
+}
+#about h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#about > div {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+#about div img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-right: 50px;
+}
+#bicycle {
+  text-align: center;
+  padding: 80px 0;
+}
+#bicycle h2 {
+  display: inline-block;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 60px;
+  border-bottom: solid 1px #383e45;
+}
+#bicycle ul {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 0 auto;
+  list-style: none;
+}
+#bicycle ul li {
+  width: 32%;
+}
+#bicycle ul li img {
+  width: 100%;
+}
